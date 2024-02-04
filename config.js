@@ -17,7 +17,7 @@ module.exports = {
   ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
   MDB: process.env.MDB || "mongodb+srv://tshephang:ducky1@ducky.ummj1kc.mongodb.net/?retryWrites=true&w=majority",
   LANG: process.env.LANG ||  'EN',
-  HANDLERS: process.env.HANDLERS === 'false' || process.env.HANDLER === 'null' ? '^': '^',
+  HANDLERS: process.env.HANDLERS === 'true' || process.env.HANDLER === '.', ? '^': '^',
   RMBG_KEY: process.env.RMBG_KEY || false,
   BRANCH: "main",
   PACKNAME: process.env.PACKNAME || "𝞓𝙇𝞘𝞢𝞜",
